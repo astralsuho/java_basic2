@@ -1,6 +1,7 @@
 package day8;
-
+/**day9폴더를 끌어서 day8에 부착**/
 import java.util.Scanner;
+import day9.Calc;//day9 다끌어오는게뭐더라..
 
 public class Main {
 
@@ -12,10 +13,7 @@ public class Main {
 			System.out.println("[메뉴]\n"
 					+ "0.정지\n"
 					+ "1.계산기\n"
-					+ "2.Bmi\n"
-					+ "3.윤년계산기\n"
-					+ "4.주민번호\n"
-					+ "5.등수구하기");
+					+ "2.Howmuch");
 			
 			String select = scanner.next();
 			

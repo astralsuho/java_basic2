@@ -1,31 +1,29 @@
-package day3;
+package day9;
 
 import java.util.Scanner;
 
 public class Howmuch {
+
 	public void test() {
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("얼마예요?");
-		int how = scanner.nextInt();
-		System.out.println(how+"입니다.");
+		int duo = scanner.nextInt();
+		System.out.println(duo+"입니다.");
 		System.out.println("몇개드릴까요?");
-		int how2 = scanner.nextInt();
-		int sum = how*how2;
+		int jige = scanner.nextInt();
+		int sum = duo*jige;
 		int result = 0;
 		
-		
-		if(how>=1000){
+		if(sum>=1000) {
 			result = sum*80/100;
-		}else if(how>=500){
+		}else if(sum>=500){
 			result = sum*90/100;
 		}else{
 			result = sum;
+}
+		System.out.printf("%d원입니다.",result);
 		}
-			//System.out.println(result+"입니다.");
-			System.out.printf("%d입니다\n",result);
 			
-	
-			
-		}
-	}
-		
+			}
+
